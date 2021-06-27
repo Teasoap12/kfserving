@@ -254,3 +254,7 @@ endif
 apidocs:
 	docker build -f docs/apis/Dockerfile --rm -t apidocs-gen . && \
 	docker run -it --rm -v $(CURDIR)/pkg/apis:/go/src/github.com/kubeflow/kfserving/pkg/apis -v ${PWD}/docs/apis:/go/gen-crd-api-reference-docs/apidocs apidocs-gen
+
+
+
+dfgdgdgfdf给dfgd给

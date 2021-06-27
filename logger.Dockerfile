@@ -20,3 +20,4 @@ COPY third_party/ third_party/
 WORKDIR /
 COPY --from=builder /go/src/github.com/kubeflow/kfserving/agent .
 ENTRYPOINT ["/agent"]
+
