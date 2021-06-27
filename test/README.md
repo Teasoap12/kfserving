@@ -42,7 +42,7 @@ pip3 install --upgrade pytest-tornasync
 pip3 install urllib3==1.24.2
 pip3 install --upgrade setuptools
 ```
-
+sfsfdfsf
 Go to `python/kfserving` and install kfserving deps 
 ```
 pip3 install -r requirements.txt
